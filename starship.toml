@@ -1,0 +1,36 @@
+# Disable the cloud fluff
+[aws]
+  disabled = true
+
+[gcloud]
+  disabled = true
+
+[azure]
+  disabled = true
+
+# Make the prompt a single line to save vertical space
+[line_break]
+  disabled = true
+
+# Simplify the directory display
+[directory]
+  truncation_length = 3
+  style = "bold cyan"
+
+# Keep the language versions subtle
+[rust]
+  symbol = "🦀"
+  style = "dimmed red"
+
+[nodejs]
+  symbol = ""
+  style = "dimmed green"
+
+[golang]
+  symbol = ""
+  style = "dimmed blue"
+
+# Clean up Git status
+[git_status]
+  style = "bold yellow"
+  format = '([\[$all_status$ahead_behind\]]($style) )'
