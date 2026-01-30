@@ -1,5 +1,5 @@
 function sync-terminal {
-  irm "https://raw.githubusercontent.com/damarus12/terminal-config/main/sync.ps1" | iex
+  irm "https://raw.githubusercontent.com/damarus12/w10-terminal/main/sync.ps1" | iex
 }
 
 # --- 1. PROMPT & TOOLS ---

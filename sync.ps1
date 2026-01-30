@@ -1,5 +1,5 @@
 # --- End-Game Sync Script ---
-$REPO_BASE = "https://raw.githubusercontent.com/damarus12/terminal-config/main"
+$REPO_BASE = "https://raw.githubusercontent.com/damarus12/w10-terminal/main"
 
 Write-Host "--- Syncing Terminal Environment ---" -ForegroundColor Cyan
 
